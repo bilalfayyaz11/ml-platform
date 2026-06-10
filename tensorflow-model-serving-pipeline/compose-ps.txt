@@ -1,0 +1,4 @@
+NAME                                           IMAGE                                       COMMAND                  SERVICE    CREATED              STATUS                        PORTS
+tensorflow-model-serving-pipeline-api-1        tensorflow-model-serving-pipeline-api       "gunicorn --bind 0.0…"   api        About a minute ago   Up 56 seconds (healthy)       0.0.0.0:5000->5000/tcp, [::]:5000->5000/tcp, 8888/tcp
+tensorflow-model-serving-pipeline-jupyter-1    tensorflow-model-serving-pipeline-jupyter   "jupyter lab --ip=0.…"   jupyter    About a minute ago   Up 45 seconds                 5000/tcp, 0.0.0.0:8888->8888/tcp, [::]:8888->8888/tcp
+tensorflow-model-serving-pipeline-postgres-1   postgres:15                                 "docker-entrypoint.s…"   postgres   About a minute ago   Up About a minute (healthy)   5432/tcp

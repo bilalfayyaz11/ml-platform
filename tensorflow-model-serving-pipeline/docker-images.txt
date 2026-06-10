@@ -1,0 +1,3 @@
+ml-pipeline:v1                                     4b2ec00ab8d3       5.22GB         1.66GB        
+tensorflow-model-serving-pipeline-api:latest       7bd696676e8b       5.22GB         1.66GB   U    
+tensorflow-model-serving-pipeline-jupyter:latest   3dec8e0e8a61       5.22GB         1.66GB   U    

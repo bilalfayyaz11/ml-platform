@@ -1,0 +1,12 @@
+api-1  | [2026-06-10 23:11:58 +0000] [1] [INFO] Starting gunicorn 23.0.0
+api-1  | [2026-06-10 23:11:58 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+api-1  | [2026-06-10 23:11:58 +0000] [1] [INFO] Using worker: sync
+api-1  | [2026-06-10 23:11:58 +0000] [7] [INFO] Booting worker with pid: 7
+api-1  | 2026-06-10 23:11:59.998478: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+api-1  | 2026-06-10 23:12:00.218629: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+api-1  | 2026-06-10 23:12:00.528246: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+api-1  | 2026-06-10 23:12:00.653846: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+api-1  | 2026-06-10 23:12:00.667377: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+api-1  | 2026-06-10 23:12:00.715451: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+api-1  | To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+api-1  | 2026-06-10 23:12:02.668559: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
